@@ -1,0 +1,14 @@
+{
+	"name": "famat-test-bank",
+	"account_id": "25d0d2d84f8b33ea97e655f271cceade",
+	"main": "./.cloudflare/worker.js",
+	"assets": {
+		"directory": ".cloudflare/public",
+		"binding": "ASSETS" // Exclude this if you don't have a `main` key configured.
+	},
+	"build": {
+		"command": "bun run build"
+	},
+	"compatibility_flags": ["nodejs_compat"],
+	"compatibility_date": "2021-11-12"
+}
